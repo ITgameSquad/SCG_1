@@ -1,0 +1,1170 @@
+﻿[2016.03.20-12.45.56:907][  0]Log file open, 03/20/16 15:45:56
+[2016.03.20-12.45.56:907][  0]LogInit:Display: Running engine for game: SCG
+[2016.03.20-12.45.56:907][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.20-12.45.56:907][  0]LogInit:Display: RandInit(1506858368) SRandInit(1506858369).
+[2016.03.20-12.45.56:907][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.03.20-12.45.56:907][  0]LogStats: Stats thread started at 0.121773
+[2016.03.20-12.45.56:907][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.20-12.45.56:907][  0]LogInit: API Version: 2758231
+[2016.03.20-12.45.56:907][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.20-12.45.56:907][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.20-12.45.56:907][  0]LogInit: Build Configuration: Development
+[2016.03.20-12.45.56:907][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.20-12.45.56:907][  0]LogInit: Command line:  
+[2016.03.20-12.45.56:907][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.20-12.45.56:907][  0]LogInit: Rocket: 1
+[2016.03.20-12.45.56:930][  0]LogInit: Using libcurl 7.41.0
+[2016.03.20-12.45.56:930][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.20-12.45.56:930][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.20-12.45.56:930][  0]LogInit:  - other features:
+[2016.03.20-12.45.56:930][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.20-12.45.56:930][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.20-12.45.56:930][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.20-12.45.56:930][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.20-12.45.56:930][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.20-12.45.56:930][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.20-12.45.56:930][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.20-12.45.56:930][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.20-12.45.56:930][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.20-12.45.56:930][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.20-12.45.56:970][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.20-12.45.56:975][  0]LogInit: Object subsystem initialized
+[2016.03.20-12.45.56:977][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.20-12.45.56:977][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.20-12.45.57:007][  0]LogInit: Computer: DESKTOP-9PE97P4
+[2016.03.20-12.45.57:007][  0]LogInit: User: AlexeyAYashin
+[2016.03.20-12.45.57:007][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.03.20-12.45.57:007][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2016.03.20-12.45.57:007][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.03.20-12.45.57:007][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.20-12.45.57:007][  0]LogMemory: Process Physical Memory: 56.46 MB used, 56.46 MB peak
+[2016.03.20-12.45.57:007][  0]LogMemory: Process Virtual Memory: 56.71 MB used, 56.71 MB peak
+[2016.03.20-12.45.57:007][  0]LogMemory: Physical Memory: 2929.63 MB used, 16283.51 MB total
+[2016.03.20-12.45.57:007][  0]LogMemory: Virtual Memory: 382.89 MB used, 134217728.00 MB total
+[2016.03.20-12.45.57:221][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.20-12.45.57:760][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M    (Feature Level 11_0)
+[2016.03.20-12.45.57:760][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 1 output[s]
+[2016.03.20-12.45.57:768][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.03.20-12.45.57:768][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.03.20-12.45.57:770][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.20-12.45.57:770][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.03.20-12.45.57:770][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.20-12.45.57:774][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.20-12.45.57:774][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.20-12.45.57:789][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.20-12.45.57:801][  0]LogShaderCompilers: Guid format shader working directory is 38 characters bigger than the processId version (D:/GitHub/SCG_1/Intermediate/Shaders/WorkingDirectory/8532/).
+[2016.03.20-12.45.57:801][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ALEXEY~1.YAS/AppData/Local/Temp/UnrealShaderWorkingDir/2B69A1104FE7670DDE3D8BA94A08D66E/'.
+[2016.03.20-12.45.57:801][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.20-12.45.59:560][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.20-12.45.59:564][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.20-12.45.59:569][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.20-12.45.59:574][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.20-12.45.59:579][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.20-12.45.59:586][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.20-12.45.59:589][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.20-12.45.59:592][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.20-12.45.59:595][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.20-12.45.59:598][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.20-12.45.59:601][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.20-12.45.59:607][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.20-12.45.59:607][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.20-12.45.59:608][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.20-12.45.59:652][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.20-12.45.59:654][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.20-12.45.59:657][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.20-12.45.59:663][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.20-12.45.59:663][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.20-12.45.59:959][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.20-12.46.00:084][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.20-12.46.00:084][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.20-12.46.00:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/SCG_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.20-12.46.00:085][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.20-12.46.00:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/SCG_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.20-12.46.00:085][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.20-12.46.00:159][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.20-12.46.00:170][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.20-12.46.03:435][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.20-12.46.03:448][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.20-12.46.03:691][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.20-12.46.03:691][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.20-12.46.04:363][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.20-12.46.06:942][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.20-12.46.07:106][  0]LogAssetRegistry: FAssetRegistry took 0.0133 seconds to start up
+[2016.03.20-12.46.07:442][  0]SourceControl: Info Source control is disabled
+[2016.03.20-12.46.07:567][  0]SourceControl: Info Source control is disabled
+[2016.03.20-12.46.07:582][  0]SourceControl: Info Source control is disabled
+[2016.03.20-12.46.07:597][  0]SourceControl: Info Source control is disabled
+[2016.03.20-12.46.07:967][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.03.20-12.46.07:967][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.03.20-12.46.08:085][  0]LogEngine: Initializing Engine...
+[2016.03.20-12.46.08:089][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.20-12.46.08:104][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.20-12.46.08:372][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.20-12.46.08:384][  0]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-12.46.08:394][  0]LogInit: FAudioDevice initialized.
+[2016.03.20-12.46.08:414][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.20-12.46.08:421][  0]LogInit: Texture streaming: Enabled
+[2016.03.20-12.46.08:429][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.20-12.46.08:429][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.20-12.46.08:429][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f5a2790d4621e793f57aed83a4c1ad3b|44963bdca51a4f6a8fcfa146bce134ea|b1ea7d6f-3642-40ca-8e23-a6158fe6a3f1
+[2016.03.20-12.46.08:431][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.20-12.46.08:447][  0]LogInit: Transaction tracking system initialized
+[2016.03.20-12.46.08:500][  0]BlueprintLog: New page: Editor Load
+[2016.03.20-12.46.08:686][  0]LocalizationService: Info Localization service is disabled
+[2016.03.20-12.46.08:858][  0]LogConsoleResponse:Display: 
+[2016.03.20-12.46.09:196][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.20-12.46.09:299][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Content/' took 0.03s
+[2016.03.20-12.46.09:299][  0]SourceControl: Info Source control is disabled
+[2016.03.20-12.46.09:301][  0]Cmd: MAP LOAD FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.20-12.46.09:345][  0]LightingResults: New page: Lighting Build
+[2016.03.20-12.46.09:354][  0]MapCheck: New page: Map Check
+[2016.03.20-12.46.09:354][  0]LightingResults: New page: Lighting Build
+[2016.03.20-12.46.09:373][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012913843420
+[2016.03.20-12.46.11:270][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-12.46.11:306][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.20-12.46.11:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.20-12.46.11:352][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.123ms to complete.
+[2016.03.20-12.46.11:352][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.052
+[2016.03.20-12.46.11:549][  0]LogCollectionManager: Loaded 0 collections in 0.002574 seconds
+[2016.03.20-12.46.11:605][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Saved/Collections/' took 0.01s
+[2016.03.20-12.46.11:605][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Content/Developers/AlexeyAYashin/Collections/' took 0.01s
+[2016.03.20-12.46.11:605][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Content/Collections/' took 0.01s
+[2016.03.20-12.46.11:605][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2016.03.20-12.46.11:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 1894 classes and 340 folders.
+[2016.03.20-12.46.11:628][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.03.20-12.46.11:937][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.03.20-12.46.12:071][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.20-12.46.12:090][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.20-12.46.12:115][  0]LogLoad: Full Startup: 16.35 seconds (BP compile: 0.27 seconds)
+[2016.03.20-12.46.12:139][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.20-12.46.12:280][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.20-12.46.12:456][  0]LogRenderer: Reallocating scene render targets to support 1096x376 (Frame:2).
+[2016.03.20-12.46.12:913][  4]LogAssetRegistry: Asset discovery search completed in 5.8193 seconds
+[2016.03.20-12.46.12:913][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.03.20-12.46.12:914][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000399 seconds (updated 0 objects)
+[2016.03.20-12.46.17:584][185]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/SCG_1/Content/' took 5.43s
+[2016.03.20-12.46.25:670][668]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.46.25:670][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-12.46.25:672][668]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 6:46:25 PM)
+[2016.03.20-12.46.25:672][668]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-12.46.25:701][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028950s)
+[2016.03.20-12.46.25:702][668]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-12.46.25:702][668]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2016.03.20-12.46.25:702][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030255s)
+[2016.03.20-12.46.25:702][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-12.46.25:702][668]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-12.46.25:749][668]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-12.46.25:754][668]LogInit: FAudioDevice initialized.
+[2016.03.20-12.46.26:095][668]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-12.46.26:103][668]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2016.03.20-15.46.26
+[2016.03.20-12.46.26:103][668]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-12.46.26:103][668]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-12.46.26:107][668]LogWorld: Bringing up level for play took: 0.007708
+[2016.03.20-12.46.26:107][668]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_1's PathFollowingComponent
+[2016.03.20-12.46.26:107][668]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
+[2016.03.20-12.46.26:111][668]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.295
+[2016.03.20-12.46.26:111][668]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.46.29:187][850]LogRenderer: Reallocating scene render targets to support 1096x464 (Frame:884).
+[2016.03.20-12.46.34:061][142]LogCharacterMovement: SideScrollerCharacter_C_1 is stuck and failed to move!
+[2016.03.20-12.46.58:681][619]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.46.58:759][619]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.46.58:776][619]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012932186B60
+[2016.03.20-12.47.08:500][135]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.20-12.47.08:958][135]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.03.20-12.48.20:662][355]LogRenderer: Reallocating scene render targets to support 1148x540 (Frame:8064).
+[2016.03.20-12.50.13:977][131]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-12.50.14:573][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-12.50.14:573][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-12.50.14:574][131]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-12.50.14:623][131]BlueprintEditorCompileResults: Info [0258.85] Compile of SideScrollerCharacter successful! [in 646 ms]
+[2016.03.20-12.50.17:803][311]LogRenderer: Reallocating scene render targets to support 1148x548 (Frame:8672).
+[2016.03.20-12.50.19:914][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.50.19:914][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-12.50.19:914][432]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 6:50:19 PM)
+[2016.03.20-12.50.19:914][432]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-12.50.19:938][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024113s)
+[2016.03.20-12.50.19:939][432]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-12.50.19:939][432]LogPlayLevel: PIE: World Init took: (0.000984s)
+[2016.03.20-12.50.19:939][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025350s)
+[2016.03.20-12.50.19:940][432]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-12.50.19:974][432]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-12.50.19:980][432]LogInit: FAudioDevice initialized.
+[2016.03.20-12.50.20:015][432]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-12.50.20:021][432]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2016.03.20-15.50.20
+[2016.03.20-12.50.20:021][432]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-12.50.20:021][432]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-12.50.20:022][432]LogWorld: Bringing up level for play took: 0.005814
+[2016.03.20-12.50.20:022][432]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_3's PathFollowingComponent
+[2016.03.20-12.50.20:022][432]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_2's PathFollowingComponent
+[2016.03.20-12.50.20:024][432]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.792
+[2016.03.20-12.50.20:024][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.51.20:612][ 64]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.51.20:658][ 64]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-12.51.20:687][ 64]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012905E04360
+[2016.03.20-12.58.39:583][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-12.58.39:583][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-12.58.39:583][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-12.59.27:649][470]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-12.59.27:820][470]BlueprintEditorCompileResults: Info [0812.05] Compile of EnergyGun successful! [in 170 ms]
+[2016.03.20-13.00.12:238][888]LogSavePackage: Save=388.203857ms
+[2016.03.20-13.00.12:238][888]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap_Auto1BCF3F7314D2CF4699810179AED0991B2.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2016.03.20-13.00.12:238][888]LogSavePackage: Total save time: 422.132544ms
+[2016.03.20-13.00.12:238][888]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2016.03.20-13.00.12:240][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.514
+[2016.03.20-13.00.12:240][888]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.514
+[2016.03.20-13.00.12:245][888]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2016.03.20-13.00.12:262][888]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2016.03.20-13.00.12:262][888]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2016.03.20-13.00.12:630][888]LogSavePackage: Save=312.163940ms
+[2016.03.20-13.00.12:630][888]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacter_Auto16084608042E28AD2FC96EB94A69E2E3D.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2016.03.20-13.00.12:632][888]LogSavePackage: Total save time: 368.240196ms
+[2016.03.20-13.00.12:632][888]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset
+[2016.03.20-13.00.12:636][888]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/EnergyGun] ([1] browsable assets)...
+[2016.03.20-13.00.12:650][888]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/EnergyGun.EnergyGun]
+[2016.03.20-13.00.12:650][888]OBJ SavePackage: Finished generating thumbnails for package [/Game/EnergyGun]
+[2016.03.20-13.00.12:651][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnergyGun" FILE="D:/GitHub/SCG_1/Saved/Autosaves/Game/EnergyGun_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.03.20-13.00.12:683][888]LogSavePackage: Save=23.034075ms
+[2016.03.20-13.00.12:683][888]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/EnergyGun_Auto1FF0716824D13054DEF9B79B755CAE1E5.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/EnergyGun_Auto1.uasset'
+[2016.03.20-13.00.12:723][888]LogSavePackage: Total save time: 71.376987ms
+[2016.03.20-13.00.12:723][888]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/EnergyGun_Auto1.uasset
+[2016.03.20-13.00.12:723][888]LogFileHelpers: Auto-saving content packages took 0.483
+[2016.03.20-13.00.41:113][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnergyGun" FILE="D:/GitHub/SCG_1/Content/EnergyGun.uasset" SILENT=true
+[2016.03.20-13.00.41:130][589]LogSavePackage: Save=14.175210ms
+[2016.03.20-13.00.41:130][589]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/EnergyGunF330A7AF4979F36B6FCD5B9E603D5387.tmp' to 'D:/GitHub/SCG_1/Content/EnergyGun.uasset'
+[2016.03.20-13.00.41:135][589]LogSavePackage: Total save time: 20.656593ms
+[2016.03.20-13.00.41:135][589]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/EnergyGun.uasset
+[2016.03.20-13.04.33:297][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_35.EdGraphPin_5539''
+[2016.03.20-13.04.33:297][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2676.EdGraphPin_5703''
+[2016.03.20-13.04.33:297][471]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2676.EdGraphPin_5704''
+[2016.03.20-13.04.45:739][867]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.04.45:818][867]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a EnergyGun_C, therefore ' Target ' must have a connection.
+[2016.03.20-13.04.45:818][867]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Variable node  Get GunSphere  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.03.20-13.04.45:975][867]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.04.46:024][867]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [1130.25] Compile of SideScrollerCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 284 ms]
+[2016.03.20-13.04.46:024][867]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a EnergyGun_C, therefore ' Target ' must have a connection.
+[2016.03.20-13.04.46:024][867]BlueprintEditorCompileResults:Error: Error Variable node  Get GunSphere  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.03.20-13.04.46:024][867]BlueprintEditorCompileResults:Warning: Warning [1130.25] Compile of SideScrollerCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 284 ms]
+[2016.03.20-13.04.54:914][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2016.03.20-13.04.55:210][888]LogSavePackage: Save=292.768005ms
+[2016.03.20-13.04.55:210][888]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacterCF58824948F08C1717759E9811FB42FC.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.20-13.04.55:214][888]LogSavePackage: Total save time: 298.357334ms
+[2016.03.20-13.04.55:214][888]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.20-13.04.57:511][139]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnergyGun" FILE="D:/GitHub/SCG_1/Content/EnergyGun.uasset" SILENT=true
+[2016.03.20-13.04.57:527][139]LogSavePackage: Save=13.557333ms
+[2016.03.20-13.04.57:527][139]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/EnergyGun21C7A9DA43CBD20396D7F986E38B7CC3.tmp' to 'D:/GitHub/SCG_1/Content/EnergyGun.uasset'
+[2016.03.20-13.04.57:528][139]LogSavePackage: Total save time: 15.866075ms
+[2016.03.20-13.04.57:528][139]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/EnergyGun.uasset
+[2016.03.20-13.04.58:291][229]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.04.58:357][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.04.58:398][229]BlueprintEditorCompileResults: Info [1142.63] Compile of EnergyGun successful! [in 106 ms]
+[2016.03.20-13.05.00:692][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2016.03.20-13.05.00:998][471]LogSavePackage: Save=302.579742ms
+[2016.03.20-13.05.00:998][471]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacterA9643011459025BC35E477A8C7559FC5.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.20-13.05.00:999][471]LogSavePackage: Total save time: 305.324644ms
+[2016.03.20-13.05.00:999][471]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.20-13.05.01:408][519]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.05.01:483][519]LogBlueprint:Error: [compiler SideScrollerCharacter] Error This blueprint (self) is not a EnergyGun_C, therefore ' Target ' must have a connection.
+[2016.03.20-13.05.01:484][519]LogBlueprint:Error: [compiler SideScrollerCharacter] Error Variable node  Get GunSphere  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.03.20-13.05.01:649][519]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.05.01:699][519]LogBlueprint:Warning: [compiler SideScrollerCharacter] Warning [1145.93] Compile of SideScrollerCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 291 ms]
+[2016.03.20-13.05.01:700][519]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a EnergyGun_C, therefore ' Target ' must have a connection.
+[2016.03.20-13.05.01:700][519]BlueprintEditorCompileResults:Error: Error Variable node  Get GunSphere  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.03.20-13.05.01:700][519]BlueprintEditorCompileResults:Warning: Warning [1145.93] Compile of SideScrollerCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 291 ms]
+[2016.03.20-13.05.26:081][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2016.03.20-13.05.26:388][239]LogSavePackage: Save=298.863403ms
+[2016.03.20-13.05.26:388][239]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacterFFC690BD4BA4C32118FFC7AFAB8852B6.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.20-13.05.26:390][239]LogSavePackage: Total save time: 307.515655ms
+[2016.03.20-13.05.26:391][239]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.20-13.05.26:985][307]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.05.27:155][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.05.27:200][307]BlueprintEditorCompileResults: Info [1171.43] Compile of SideScrollerCharacter successful! [in 215 ms]
+[2016.03.20-13.05.32:802][871]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.05.32:802][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.05.32:802][871]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:05:32 PM)
+[2016.03.20-13.05.32:802][871]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.05.32:830][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028398s)
+[2016.03.20-13.05.32:831][871]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.05.32:831][871]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2016.03.20-13.05.32:832][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029788s)
+[2016.03.20-13.05.32:867][871]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.05.32:874][871]LogInit: FAudioDevice initialized.
+[2016.03.20-13.05.32:912][871]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.05.32:917][871]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.05.32
+[2016.03.20-13.05.32:917][871]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.05.32:917][871]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.05.32:918][871]LogWorld: Bringing up level for play took: 0.004363
+[2016.03.20-13.05.32:918][871]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_5's PathFollowingComponent
+[2016.03.20-13.05.32:918][871]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_4's PathFollowingComponent
+[2016.03.20-13.05.32:919][871]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.103
+[2016.03.20-13.05.32:919][871]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.05.47:726][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.05.47:774][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.05.47:802][617]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001299C404D60
+[2016.03.20-13.06.36:833][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2016.03.20-13.06.37:146][261]LogSavePackage: Save=310.294922ms
+[2016.03.20-13.06.37:146][261]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacter3729EF374764FAABF844B9B41BC51A3D.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.20-13.06.37:148][261]LogSavePackage: Total save time: 313.498076ms
+[2016.03.20-13.06.37:148][261]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.20-13.06.45:908][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.06.47:474][422]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.06.47:576][422]BlueprintEditorCompileResults: Info [1251.81] Compile of EnergyGun successful! [in 101 ms]
+[2016.03.20-13.06.59:395][807]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.06.59:486][807]BlueprintEditorCompileResults: Info [1263.72] Compile of EnergyGun successful! [in 90 ms]
+[2016.03.20-13.07.01:231][  3]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.07.01:458][  3]BlueprintEditorCompileResults: Info [1265.69] Compile of SideScrollerCharacter successful! [in 226 ms]
+[2016.03.20-13.07.03:222][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.03:222][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.07.03:222][197]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:07:03 PM)
+[2016.03.20-13.07.03:222][197]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.07.03:247][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025592s)
+[2016.03.20-13.07.03:248][197]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.07.03:249][197]LogPlayLevel: PIE: World Init took: (0.001182s)
+[2016.03.20-13.07.03:249][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.027071s)
+[2016.03.20-13.07.03:282][197]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.07.03:289][197]LogInit: FAudioDevice initialized.
+[2016.03.20-13.07.03:326][197]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.07.03:331][197]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.07.03
+[2016.03.20-13.07.03:331][197]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.07.03:331][197]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.07.03:332][197]LogWorld: Bringing up level for play took: 0.005430
+[2016.03.20-13.07.03:332][197]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_7's PathFollowingComponent
+[2016.03.20-13.07.03:332][197]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_6's PathFollowingComponent
+[2016.03.20-13.07.03:333][197]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.517
+[2016.03.20-13.07.03:333][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.12:277][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.12:320][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.12:354][261]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001299B1596C0
+[2016.03.20-13.07.37:744][259]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.07.37:836][259]BlueprintEditorCompileResults: Info [1302.07] Compile of EnergyGun successful! [in 92 ms]
+[2016.03.20-13.07.40:422][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.40:422][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.07.40:422][553]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:07:40 PM)
+[2016.03.20-13.07.40:422][553]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.07.40:445][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023131s)
+[2016.03.20-13.07.40:446][553]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.07.40:446][553]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2016.03.20-13.07.40:447][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024397s)
+[2016.03.20-13.07.40:482][553]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.07.40:489][553]LogInit: FAudioDevice initialized.
+[2016.03.20-13.07.40:527][553]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.07.40:532][553]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.07.40
+[2016.03.20-13.07.40:532][553]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.07.40:532][553]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.07.40:533][553]LogWorld: Bringing up level for play took: 0.004354
+[2016.03.20-13.07.40:533][553]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_9's PathFollowingComponent
+[2016.03.20-13.07.40:533][553]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_8's PathFollowingComponent
+[2016.03.20-13.07.40:534][553]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.282
+[2016.03.20-13.07.40:534][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.43:039][848]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.43:077][848]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.43:108][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001295893BBA0
+[2016.03.20-13.07.55:974][355]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.07.56:067][355]BlueprintEditorCompileResults: Info [1320.30] Compile of EnergyGun successful! [in 92 ms]
+[2016.03.20-13.07.57:983][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.07.57:983][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.07.57:983][569]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:07:57 PM)
+[2016.03.20-13.07.57:983][569]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.07.58:010][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026863s)
+[2016.03.20-13.07.58:011][569]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.07.58:011][569]LogPlayLevel: PIE: World Init took: (0.001117s)
+[2016.03.20-13.07.58:011][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.028282s)
+[2016.03.20-13.07.58:045][569]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.07.58:052][569]LogInit: FAudioDevice initialized.
+[2016.03.20-13.07.58:091][569]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.07.58:096][569]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.07.58
+[2016.03.20-13.07.58:096][569]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.07.58:096][569]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.07.58:097][569]LogWorld: Bringing up level for play took: 0.004462
+[2016.03.20-13.07.58:097][569]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_11's PathFollowingComponent
+[2016.03.20-13.07.58:097][569]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_10's PathFollowingComponent
+[2016.03.20-13.07.58:098][569]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.718
+[2016.03.20-13.07.58:098][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.02:905][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.02:947][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.02:978][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012997179D00
+[2016.03.20-13.08.13:314][358]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.08.13:402][358]BlueprintEditorCompileResults: Info [1337.63] Compile of EnergyGun successful! [in 88 ms]
+[2016.03.20-13.08.15:175][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.15:175][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.08.15:176][561]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:08:15 PM)
+[2016.03.20-13.08.15:176][561]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.08.15:201][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024787s)
+[2016.03.20-13.08.15:202][561]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.08.15:202][561]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2016.03.20-13.08.15:202][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025980s)
+[2016.03.20-13.08.15:237][561]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.08.15:243][561]LogInit: FAudioDevice initialized.
+[2016.03.20-13.08.15:277][561]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.08.15:281][561]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.08.15
+[2016.03.20-13.08.15:281][561]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.08.15:281][561]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.08.15:283][561]LogWorld: Bringing up level for play took: 0.003801
+[2016.03.20-13.08.15:283][561]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_13's PathFollowingComponent
+[2016.03.20-13.08.15:283][561]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_12's PathFollowingComponent
+[2016.03.20-13.08.15:283][561]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.467
+[2016.03.20-13.08.15:284][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.18:948][992]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.18:991][992]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.19:020][992]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001299B11CE00
+[2016.03.20-13.08.23:557][523]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.08.23:648][523]BlueprintEditorCompileResults: Info [1347.88] Compile of EnergyGun successful! [in 90 ms]
+[2016.03.20-13.08.25:772][761]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.25:772][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.08.25:772][761]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:08:25 PM)
+[2016.03.20-13.08.25:773][761]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.08.25:797][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024718s)
+[2016.03.20-13.08.25:798][761]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.08.25:798][761]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2016.03.20-13.08.25:798][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025901s)
+[2016.03.20-13.08.25:832][761]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.08.25:839][761]LogInit: FAudioDevice initialized.
+[2016.03.20-13.08.25:880][761]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.08.25:885][761]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.08.25
+[2016.03.20-13.08.25:885][761]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.08.25:885][761]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.08.25:886][761]LogWorld: Bringing up level for play took: 0.005065
+[2016.03.20-13.08.25:886][761]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_15's PathFollowingComponent
+[2016.03.20-13.08.25:886][761]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_14's PathFollowingComponent
+[2016.03.20-13.08.25:887][761]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.071
+[2016.03.20-13.08.25:887][761]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.42:623][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.42:665][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.08.42:693][739]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129586977E0
+[2016.03.20-13.09.00:030][780]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.09.00:247][780]BlueprintEditorCompileResults: Info [1384.48] Compile of SideScrollerCharacter successful! [in 217 ms]
+[2016.03.20-13.09.01:965][974]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.01:965][974]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.09.01:965][974]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:09:01 PM)
+[2016.03.20-13.09.01:965][974]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.09.01:988][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022189s)
+[2016.03.20-13.09.01:989][974]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.09.01:989][974]LogPlayLevel: PIE: World Init took: (0.001540s)
+[2016.03.20-13.09.01:989][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024000s)
+[2016.03.20-13.09.02:023][974]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.09.02:029][974]LogInit: FAudioDevice initialized.
+[2016.03.20-13.09.02:066][974]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.09.02:072][974]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.09.02
+[2016.03.20-13.09.02:072][974]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.09.02:072][974]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.09.02:073][974]LogWorld: Bringing up level for play took: 0.005387
+[2016.03.20-13.09.02:073][974]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_17's PathFollowingComponent
+[2016.03.20-13.09.02:073][974]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_16's PathFollowingComponent
+[2016.03.20-13.09.02:074][974]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.743
+[2016.03.20-13.09.02:074][974]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.10:928][ 28]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.10:979][ 28]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.11:004][ 28]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012985B29B20
+[2016.03.20-13.09.13:860][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.13:860][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.09.13:861][358]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:09:13 PM)
+[2016.03.20-13.09.13:861][358]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.09.13:882][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021067s)
+[2016.03.20-13.09.13:883][358]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.09.13:883][358]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2016.03.20-13.09.13:883][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.022332s)
+[2016.03.20-13.09.13:916][358]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.09.13:922][358]LogInit: FAudioDevice initialized.
+[2016.03.20-13.09.13:961][358]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.09.13:965][358]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.09.13
+[2016.03.20-13.09.13:965][358]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.09.13:965][358]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.09.13:966][358]LogWorld: Bringing up level for play took: 0.004226
+[2016.03.20-13.09.13:966][358]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_19's PathFollowingComponent
+[2016.03.20-13.09.13:966][358]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_18's PathFollowingComponent
+[2016.03.20-13.09.13:967][358]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.849
+[2016.03.20-13.09.13:967][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.33:757][699]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.33:800][699]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.09.33:859][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012958764680
+[2016.03.20-13.09.51:341][778]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.09.51:567][778]BlueprintEditorCompileResults: Info [1435.80] Compile of SideScrollerCharacter successful! [in 226 ms]
+[2016.03.20-13.11.15:846][975]AssetReimport: New page: Outstanding source content changes 7:11:15 PM
+[2016.03.20-13.11.15:848][975]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GitHub/SCG_1/Content/Audio/WeaponFire01.WAV)
+[2016.03.20-13.11.15:983][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/WeaponFire01" FILE="D:/GitHub/SCG_1/Content/Audio/WeaponFire01.uasset" SILENT=true
+[2016.03.20-13.11.15:992][976]LogSavePackage: Save=7.393185ms
+[2016.03.20-13.11.15:992][976]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/WeaponFire01D7ED25C04B60CD22C2DD8CAB6A8F29AB.tmp' to 'D:/GitHub/SCG_1/Content/Audio/WeaponFire01.uasset'
+[2016.03.20-13.11.15:993][976]LogSavePackage: Total save time: 8.926027ms
+[2016.03.20-13.11.15:993][976]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/Audio/WeaponFire01.uasset
+[2016.03.20-13.11.19:007][306]AssetReimport: Info Importing new asset /Game/Audio/WeaponFire01.
+[2016.03.20-13.11.39:156][249]LogFactory: FactoryCreateBinary: SoundWave with ReimportSoundFactory (0 0 D:/GitHub/SCG_1/Content/Audio/WeaponFire01.WAV)
+[2016.03.20-13.11.41:582][249]LogAudioDerivedData:Display: Building compressed audio format OGG wave WeaponFire01...
+[2016.03.20-13.11.41:625][249]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/WeaponFire01.WeaponFire01.
+[2016.03.20-13.12.55:629][602]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.12.55:847][602]BlueprintEditorCompileResults: Info [1620.08] Compile of SideScrollerCharacter successful! [in 217 ms]
+[2016.03.20-13.12.57:058][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2016.03.20-13.12.57:376][734]LogSavePackage: Save=309.555359ms
+[2016.03.20-13.12.57:376][734]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacterBF85307748B8D3FDFD95C7839B528547.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.20-13.12.57:378][734]LogSavePackage: Total save time: 318.853136ms
+[2016.03.20-13.12.57:378][734]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.20-13.12.59:074][932]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.12.59:139][932]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.12.59:177][932]BlueprintEditorCompileResults: Info [1623.41] Compile of EnergyGun successful! [in 103 ms]
+[2016.03.20-13.13.01:813][226]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.13.01:814][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.13.01:814][226]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:13:01 PM)
+[2016.03.20-13.13.01:814][226]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.13.01:838][226]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023877s)
+[2016.03.20-13.13.01:839][226]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.13.01:839][226]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2016.03.20-13.13.01:839][226]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024992s)
+[2016.03.20-13.13.01:873][226]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.13.01:880][226]LogInit: FAudioDevice initialized.
+[2016.03.20-13.13.01:912][226]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.13.01:917][226]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.13.01
+[2016.03.20-13.13.01:917][226]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.13.01:918][226]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.13.01:919][226]LogWorld: Bringing up level for play took: 0.005453
+[2016.03.20-13.13.01:919][226]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_21's PathFollowingComponent
+[2016.03.20-13.13.01:919][226]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_20's PathFollowingComponent
+[2016.03.20-13.13.01:920][226]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.104
+[2016.03.20-13.13.01:921][226]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.13.19:367][306]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.13.19:419][306]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.13.19:454][306]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012958767600
+[2016.03.20-13.13.23:860][823]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.13.23:951][823]BlueprintEditorCompileResults: Info [1648.18] Compile of EnergyGun successful! [in 91 ms]
+[2016.03.20-13.14.17:098][ 32]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.14.20:105][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2016.03.20-13.14.20:187][394]BlueprintLog: New page: Compile BulletPawn
+[2016.03.20-13.14.20:247][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2016.03.20-13.14.20:284][394]BlueprintEditorCompileResults: Info [1704.51] Compile of BulletPawn successful! [in 96 ms]
+[2016.03.20-13.14.22:722][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.22:722][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.14.22:722][679]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:14:22 PM)
+[2016.03.20-13.14.22:723][679]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.14.22:750][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027012s)
+[2016.03.20-13.14.22:751][679]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.14.22:751][679]LogPlayLevel: PIE: World Init took: (0.001634s)
+[2016.03.20-13.14.22:752][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.029101s)
+[2016.03.20-13.14.22:752][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.14.22:788][679]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.14.22:794][679]LogInit: FAudioDevice initialized.
+[2016.03.20-13.14.22:830][679]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.14.22:835][679]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.14.22
+[2016.03.20-13.14.22:835][679]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.14.22:835][679]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_11 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.14.22:836][679]LogWorld: Bringing up level for play took: 0.005180
+[2016.03.20-13.14.22:836][679]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_23's PathFollowingComponent
+[2016.03.20-13.14.22:836][679]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_22's PathFollowingComponent
+[2016.03.20-13.14.22:837][679]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.021
+[2016.03.20-13.14.22:837][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.33:422][941]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.33:460][941]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.33:510][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001298501D580
+[2016.03.20-13.14.41:998][934]BlueprintLog: New page: Compile BulletPawn
+[2016.03.20-13.14.42:085][934]BlueprintEditorCompileResults: Info [1726.32] Compile of BulletPawn successful! [in 87 ms]
+[2016.03.20-13.14.43:268][ 69]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.14.43:321][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.14.43:359][ 69]BlueprintEditorCompileResults: Info [1727.59] Compile of EnergyGun successful! [in 90 ms]
+[2016.03.20-13.14.44:241][159]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.14.44:468][159]BlueprintEditorCompileResults: Info [1728.70] Compile of SideScrollerCharacter successful! [in 227 ms]
+[2016.03.20-13.14.45:739][297]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.45:739][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.14.45:739][297]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:14:45 PM)
+[2016.03.20-13.14.45:740][297]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.14.45:763][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023555s)
+[2016.03.20-13.14.45:764][297]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.14.45:764][297]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2016.03.20-13.14.45:764][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024804s)
+[2016.03.20-13.14.45:797][297]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.14.45:803][297]LogInit: FAudioDevice initialized.
+[2016.03.20-13.14.45:834][297]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.14.45:839][297]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.14.45
+[2016.03.20-13.14.45:839][297]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.14.45:839][297]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.14.45:840][297]LogWorld: Bringing up level for play took: 0.004280
+[2016.03.20-13.14.45:840][297]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_25's PathFollowingComponent
+[2016.03.20-13.14.45:840][297]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_24's PathFollowingComponent
+[2016.03.20-13.14.45:841][297]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.025
+[2016.03.20-13.14.45:841][297]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.55:085][398]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.55:134][398]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.14.55:165][398]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129718B7740
+[2016.03.20-13.16.02:935][396]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.16.03:152][396]BlueprintEditorCompileResults: Info [1807.38] Compile of SideScrollerCharacter successful! [in 216 ms]
+[2016.03.20-13.16.05:546][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.16.05:546][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.16.05:546][672]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:16:05 PM)
+[2016.03.20-13.16.05:546][672]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.16.05:572][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026016s)
+[2016.03.20-13.16.05:573][672]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.16.05:573][672]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2016.03.20-13.16.05:573][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.027405s)
+[2016.03.20-13.16.05:610][672]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.16.05:614][672]LogInit: FAudioDevice initialized.
+[2016.03.20-13.16.05:652][672]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.16.05:657][672]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.16.05
+[2016.03.20-13.16.05:657][672]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.16.05:658][672]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.16.05:658][672]LogWorld: Bringing up level for play took: 0.004705
+[2016.03.20-13.16.05:658][672]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_27's PathFollowingComponent
+[2016.03.20-13.16.05:658][672]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_26's PathFollowingComponent
+[2016.03.20-13.16.05:659][672]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.843
+[2016.03.20-13.16.05:659][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.16.28:035][334]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.16.28:087][334]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.16.28:116][334]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129A6444180
+[2016.03.20-13.16.30:857][654]BlueprintLog: New page: Compile EnergyGun
+[2016.03.20-13.16.30:946][654]BlueprintEditorCompileResults: Info [1835.18] Compile of EnergyGun successful! [in 89 ms]
+[2016.03.20-13.16.57:550][806]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.16.57:769][806]BlueprintEditorCompileResults: Info [1862.00] Compile of SideScrollerCharacter successful! [in 219 ms]
+[2016.03.20-13.16.59:180][967]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.16.59:180][967]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.16.59:180][967]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:16:59 PM)
+[2016.03.20-13.16.59:180][967]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.16.59:204][967]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023329s)
+[2016.03.20-13.16.59:206][967]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.16.59:206][967]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2016.03.20-13.16.59:206][967]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025406s)
+[2016.03.20-13.16.59:243][967]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.16.59:248][967]LogInit: FAudioDevice initialized.
+[2016.03.20-13.16.59:283][967]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.16.59:287][967]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.16.59
+[2016.03.20-13.16.59:287][967]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.16.59:287][967]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_14 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.16.59:288][967]LogWorld: Bringing up level for play took: 0.003846
+[2016.03.20-13.16.59:288][967]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_29's PathFollowingComponent
+[2016.03.20-13.16.59:288][967]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_28's PathFollowingComponent
+[2016.03.20-13.16.59:288][967]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.473
+[2016.03.20-13.16.59:289][967]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.17.16:750][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.17.16:800][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.17.16:831][ 50]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129B92DE8E0
+[2016.03.20-13.17.28:771][429]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.17.28:982][429]BlueprintEditorCompileResults: Info [1893.21] Compile of SideScrollerCharacter successful! [in 210 ms]
+[2016.03.20-13.17.38:041][490]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.17.38:253][490]BlueprintEditorCompileResults: Info [1902.48] Compile of SideScrollerCharacter successful! [in 211 ms]
+[2016.03.20-13.17.44:876][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.17.44:876][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.17.44:877][258]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:17:44 PM)
+[2016.03.20-13.17.44:877][258]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.17.44:903][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026052s)
+[2016.03.20-13.17.44:903][258]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.17.44:904][258]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2016.03.20-13.17.44:904][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.027213s)
+[2016.03.20-13.17.44:935][258]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.17.44:942][258]LogInit: FAudioDevice initialized.
+[2016.03.20-13.17.44:979][258]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.17.44:985][258]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.17.44
+[2016.03.20-13.17.44:985][258]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.17.44:986][258]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_15 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.17.44:986][258]LogWorld: Bringing up level for play took: 0.005493
+[2016.03.20-13.17.44:986][258]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_31's PathFollowingComponent
+[2016.03.20-13.17.44:986][258]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_30's PathFollowingComponent
+[2016.03.20-13.17.44:987][258]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.171
+[2016.03.20-13.17.44:987][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.18.00:171][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.18.00:218][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.18.00:249][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129AEE90A40
+[2016.03.20-13.18.02:965][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.18.03:362][385]LogSavePackage: Save=353.056396ms
+[2016.03.20-13.18.03:362][385]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMapB1DEACBB4D2A2A1A25CDD98F79EBDFC2.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.18.03:364][385]LogSavePackage: Total save time: 366.465978ms
+[2016.03.20-13.18.03:364][385]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.18.07:948][880]BlueprintLog: New page: Compile SideScrollerCharacter
+[2016.03.20-13.18.08:159][880]BlueprintEditorCompileResults: Info [1932.39] Compile of SideScrollerCharacter successful! [in 210 ms]
+[2016.03.20-13.28.03:974][928]LogSavePackage: Save=461.918427ms
+[2016.03.20-13.28.03:974][928]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap_Auto246A110354373D703F6E90998C5AAD592.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2016.03.20-13.28.03:975][928]LogSavePackage: Total save time: 483.194470ms
+[2016.03.20-13.28.03:975][928]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap
+[2016.03.20-13.28.03:976][928]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.563
+[2016.03.20-13.28.03:976][928]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.563
+[2016.03.20-13.28.03:988][928]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2016.03.20-13.28.04:008][928]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter]
+[2016.03.20-13.28.04:008][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2016.03.20-13.28.04:440][928]LogSavePackage: Save=423.731750ms
+[2016.03.20-13.28.04:440][928]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacter_Auto204B9EF184D7EE68F26B382B0B68D0CF2.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset'
+[2016.03.20-13.28.04:441][928]LogSavePackage: Total save time: 432.176989ms
+[2016.03.20-13.28.04:441][928]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto2.uasset
+[2016.03.20-13.28.04:447][928]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BulletPawn] ([1] browsable assets)...
+[2016.03.20-13.28.04:463][928]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BulletPawn.BulletPawn]
+[2016.03.20-13.28.04:463][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/BulletPawn]
+[2016.03.20-13.28.04:463][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BulletPawn" FILE="D:/GitHub/SCG_1/Saved/Autosaves/Game/BulletPawn_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.03.20-13.28.04:496][928]LogSavePackage: Save=25.069431ms
+[2016.03.20-13.28.04:496][928]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/BulletPawn_Auto26E20A8A44EC6B505E7507B9B344E1CF3.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/BulletPawn_Auto2.uasset'
+[2016.03.20-13.28.04:497][928]LogSavePackage: Total save time: 33.032693ms
+[2016.03.20-13.28.04:497][928]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/BulletPawn_Auto2.uasset
+[2016.03.20-13.28.04:505][928]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/EnergyGun] ([1] browsable assets)...
+[2016.03.20-13.28.04:519][928]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/EnergyGun.EnergyGun]
+[2016.03.20-13.28.04:519][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/EnergyGun]
+[2016.03.20-13.28.04:519][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnergyGun" FILE="D:/GitHub/SCG_1/Saved/Autosaves/Game/EnergyGun_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.03.20-13.28.04:554][928]LogSavePackage: Save=27.836050ms
+[2016.03.20-13.28.04:554][928]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/EnergyGun_Auto28695300B4A4C4FF310E40D8514D90328.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/EnergyGun_Auto2.uasset'
+[2016.03.20-13.28.04:554][928]LogSavePackage: Total save time: 34.302816ms
+[2016.03.20-13.28.04:554][928]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/EnergyGun_Auto2.uasset
+[2016.03.20-13.28.04:560][928]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/WeaponFire01] ([1] browsable assets)...
+[2016.03.20-13.28.04:567][928]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/WeaponFire01.WeaponFire01]
+[2016.03.20-13.28.04:567][928]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/WeaponFire01]
+[2016.03.20-13.28.04:567][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/WeaponFire01" FILE="D:/GitHub/SCG_1/Saved/Autosaves/Game/Audio/WeaponFire01_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.03.20-13.28.04:584][928]LogSavePackage: Save=7.940741ms
+[2016.03.20-13.28.04:584][928]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/WeaponFire01_Auto23DF8FC904421E69CC0AEDDBE0592EF2A.tmp' to 'D:/GitHub/SCG_1/Saved/Autosaves/Game/Audio/WeaponFire01_Auto2.uasset'
+[2016.03.20-13.28.04:585][928]LogSavePackage: Total save time: 16.103111ms
+[2016.03.20-13.28.04:585][928]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Saved/Autosaves/Game/Audio/WeaponFire01_Auto2.uasset
+[2016.03.20-13.28.04:585][928]LogFileHelpers: Auto-saving content packages took 0.605
+[2016.03.20-13.29.58:139][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10693.EdGraphPin_2812''
+[2016.03.20-13.29.58:139][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10693.EdGraphPin_2815''
+[2016.03.20-13.29.58:139][586]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SergeantAnimBP.SergeantAnimBP:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/BulletPawn.BulletPawn:EventGraph.K2Node_IfThenElse_5
+[2016.03.20-13.29.58:139][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_5.EdGraphPin_2757''
+[2016.03.20-13.29.58:140][586]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_Event_68 or K2Node_Event /Game/BulletPawn.BulletPawn:EventGraph.K2Node_Event_68
+[2016.03.20-13.29.58:140][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_68.EdGraphPin_2851''
+[2016.03.20-13.29.58:140][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10817.EdGraphPin_2838''
+[2016.03.20-13.29.58:140][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_10817.EdGraphPin_2836''
+[2016.03.20-13.29.58:141][586]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SergeantAnimBP.SergeantAnimBP:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/BulletPawn.BulletPawn:EventGraph.K2Node_IfThenElse_5
+[2016.03.20-13.29.58:141][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_5.EdGraphPin_2755''
+[2016.03.20-13.29.58:141][586]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/BulletPawn.BulletPawn:EventGraph.K2Node_CallFunction_2325 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_2325
+[2016.03.20-13.29.58:141][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2325.EdGraphPin_2877''
+[2016.03.20-13.29.58:141][586]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/SergeantAnimBP.SergeantAnimBP:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/BulletPawn.BulletPawn:EventGraph.K2Node_IfThenElse_5
+[2016.03.20-13.29.58:141][586]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_5.EdGraphPin_2756''
+[2016.03.20-13.29.58:150][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.29.58:150][586]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.30.57:218][518]BlueprintLog: New page: Compile BulletPawn
+[2016.03.20-13.30.57:318][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2016.03.20-13.30.57:371][518]BlueprintEditorCompileResults: Info [2701.60] Compile of BulletPawn successful! [in 152 ms]
+[2016.03.20-13.31.06:710][611]LogActorFactory: Actor Factory created Cube
+[2016.03.20-13.31.10:103][  9]LogActorFactory: Actor Factory created Cube
+[2016.03.20-13.31.26:750][811]Cmd: EDIT COPY
+[2016.03.20-13.31.26:875][819]Cmd: EDIT PASTE
+[2016.03.20-13.31.28:765][ 23]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.03.20-13.31.29:453][ 95]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.31.31:285][292]Cmd: EDIT COPY
+[2016.03.20-13.31.31:396][303]Cmd: EDIT PASTE
+[2016.03.20-13.31.33:718][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.31.38:471][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2016.03.20-13.31.41:104][337]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.03.20-13.31.46:099][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2016.03.20-13.31.48:778][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.31.52:850][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.31.52:850][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.31.52:850][584]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:31:52 PM)
+[2016.03.20-13.31.52:850][584]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.31.52:878][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027876s)
+[2016.03.20-13.31.52:879][584]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.31.52:880][584]LogPlayLevel: PIE: World Init took: (0.001776s)
+[2016.03.20-13.31.52:880][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.030278s)
+[2016.03.20-13.31.52:880][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.31.52:880][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.31.52:916][584]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.31.52:923][584]LogInit: FAudioDevice initialized.
+[2016.03.20-13.31.52:961][584]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.31.52:968][584]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.31.52
+[2016.03.20-13.31.52:968][584]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.31.52:968][584]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.31.52:969][584]LogWorld: Bringing up level for play took: 0.007394
+[2016.03.20-13.31.52:969][584]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_33's PathFollowingComponent
+[2016.03.20-13.31.52:969][584]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_32's PathFollowingComponent
+[2016.03.20-13.31.52:971][584]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.155
+[2016.03.20-13.31.52:971][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.32.01:160][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.32.01:212][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.32.01:244][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012985ABF380
+[2016.03.20-13.32.38:215][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2016.03.20-13.32.53:673][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.32.55:228][407]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2016.03.20-13.32.56:098][494]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2016.03.20-13.33.00:583][960]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.33.03:759][295]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.03.20-13.33.04:726][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.04:726][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.33.04:726][369]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:33:04 PM)
+[2016.03.20-13.33.04:726][369]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.33.04:750][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024174s)
+[2016.03.20-13.33.04:751][369]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.33.04:751][369]LogPlayLevel: PIE: World Init took: (0.001027s)
+[2016.03.20-13.33.04:751][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025504s)
+[2016.03.20-13.33.04:751][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.33.04:788][369]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.33.04:795][369]LogInit: FAudioDevice initialized.
+[2016.03.20-13.33.04:829][369]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.33.04:835][369]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.33.04
+[2016.03.20-13.33.04:835][369]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.33.04:836][369]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.33.04:837][369]LogWorld: Bringing up level for play took: 0.006317
+[2016.03.20-13.33.04:838][369]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_35's PathFollowingComponent
+[2016.03.20-13.33.04:838][369]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_34's PathFollowingComponent
+[2016.03.20-13.33.04:838][369]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.022
+[2016.03.20-13.33.04:839][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.20:952][292]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.21:003][292]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.21:064][293]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001296406B7E0
+[2016.03.20-13.33.24:821][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2016.03.20-13.33.25:293][750]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2016.03.20-13.33.25:732][792]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.33.28:167][ 39]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2016.03.20-13.33.29:255][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.03.20-13.33.30:198][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2016.03.20-13.33.32:161][459]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2016.03.20-13.33.36:163][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.36:164][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.33.36:164][874]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:33:36 PM)
+[2016.03.20-13.33.36:164][874]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.33.36:188][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024310s)
+[2016.03.20-13.33.36:189][874]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.33.36:189][874]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2016.03.20-13.33.36:189][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025606s)
+[2016.03.20-13.33.36:223][874]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.33.36:228][874]LogInit: FAudioDevice initialized.
+[2016.03.20-13.33.36:264][874]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.33.36:269][874]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.33.36
+[2016.03.20-13.33.36:269][874]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.33.36:269][874]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.33.36:270][874]LogWorld: Bringing up level for play took: 0.004554
+[2016.03.20-13.33.36:270][874]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_37's PathFollowingComponent
+[2016.03.20-13.33.36:270][874]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_36's PathFollowingComponent
+[2016.03.20-13.33.36:273][874]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.543
+[2016.03.20-13.33.36:273][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.56:140][237]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.56:196][237]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.33.56:261][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129A098CAE0
+[2016.03.20-13.34.50:534][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.34.50:536][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.34.50:929][ 39]LogSavePackage: Save=350.159393ms
+[2016.03.20-13.34.50:929][ 39]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap5F6F1E1B4E466F262BCA11801714EDC5.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.34.50:935][ 39]LogSavePackage: Total save time: 368.002370ms
+[2016.03.20-13.34.50:935][ 39]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.34.52:167][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.34.52:167][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.34.52:167][155]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:34:52 PM)
+[2016.03.20-13.34.52:167][155]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.34.52:191][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023285s)
+[2016.03.20-13.34.52:192][155]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.34.52:192][155]LogPlayLevel: PIE: World Init took: (0.001073s)
+[2016.03.20-13.34.52:192][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024777s)
+[2016.03.20-13.34.52:232][155]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.34.52:238][155]LogInit: FAudioDevice initialized.
+[2016.03.20-13.34.52:275][155]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.34.52:281][155]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.34.52
+[2016.03.20-13.34.52:281][155]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.34.52:281][155]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.34.52:282][155]LogWorld: Bringing up level for play took: 0.005734
+[2016.03.20-13.34.52:282][155]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_39's PathFollowingComponent
+[2016.03.20-13.34.52:282][155]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_38's PathFollowingComponent
+[2016.03.20-13.34.52:283][155]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.532
+[2016.03.20-13.34.52:284][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.35.15:017][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.35.15:068][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.35.15:099][854]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129B2820E00
+[2016.03.20-13.35.21:218][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.35.21:219][452]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.35.21:648][452]LogSavePackage: Save=398.344299ms
+[2016.03.20-13.35.21:649][452]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap4B47E91E43D52D841034C4A7F40133EA.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.35.21:652][452]LogSavePackage: Total save time: 404.453531ms
+[2016.03.20-13.35.21:652][452]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.35.27:903][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.35.27:904][ 82]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.35.28:288][ 82]LogSavePackage: Save=347.895294ms
+[2016.03.20-13.35.28:288][ 82]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap4C70DEF4434B5E85E3E7D5B97AE7F77E.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.35.28:290][ 82]LogSavePackage: Total save time: 352.009878ms
+[2016.03.20-13.35.28:290][ 82]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.35.28:904][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.35.28:904][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.35.28:904][137]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:35:28 PM)
+[2016.03.20-13.35.28:904][137]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.35.28:927][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023571s)
+[2016.03.20-13.35.28:929][137]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.35.28:929][137]LogPlayLevel: PIE: World Init took: (0.002110s)
+[2016.03.20-13.35.28:930][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.025981s)
+[2016.03.20-13.35.28:965][137]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.35.28:971][137]LogInit: FAudioDevice initialized.
+[2016.03.20-13.35.29:008][137]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.35.29:014][137]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.35.29
+[2016.03.20-13.35.29:014][137]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.35.29:014][137]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.35.29:015][137]LogWorld: Bringing up level for play took: 0.005913
+[2016.03.20-13.35.29:015][137]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_41's PathFollowingComponent
+[2016.03.20-13.35.29:015][137]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_40's PathFollowingComponent
+[2016.03.20-13.35.29:016][137]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.2
+[2016.03.20-13.35.29:016][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.36.04:557][363]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.36.04:608][363]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.36.04:639][363]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129A00A0860
+[2016.03.20-13.36.58:558][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.36.58:559][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.36.58:955][  1]LogSavePackage: Save=362.352203ms
+[2016.03.20-13.36.58:955][  1]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap80F1E5D34CC617DF59EBFDAF410E7AFB.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.36.58:958][  1]LogSavePackage: Total save time: 367.070422ms
+[2016.03.20-13.36.58:958][  1]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.37.08:258][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.37.08:259][910]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.37.08:656][910]LogSavePackage: Save=358.917542ms
+[2016.03.20-13.37.08:656][910]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap2C4D79C84899918B8555D184765B3C66.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.37.08:658][910]LogSavePackage: Total save time: 362.886719ms
+[2016.03.20-13.37.08:658][910]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.37.09:782][ 16]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.37.09:782][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.20-13.37.09:782][ 16]PIE: New page: PIE session: SideScrollerExampleMap (Mar 20, 2016, 7:37:09 PM)
+[2016.03.20-13.37.09:782][ 16]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2016.03.20-13.37.09:806][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023578s)
+[2016.03.20-13.37.09:807][ 16]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.03.20-13.37.09:807][ 16]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2016.03.20-13.37.09:807][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.024717s)
+[2016.03.20-13.37.09:843][ 16]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.20-13.37.09:848][ 16]LogInit: FAudioDevice initialized.
+[2016.03.20-13.37.09:887][ 16]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2016.03.20-13.37.09:892][ 16]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2016.03.20-16.37.09
+[2016.03.20-13.37.09:892][ 16]LogActor:Warning: GameSession /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameSession_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.37.09:892][ 16]LogActor:Warning: GameNetworkManager /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.20-13.37.09:893][ 16]LogWorld: Bringing up level for play took: 0.004526
+[2016.03.20-13.37.09:893][ 16]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_43's PathFollowingComponent
+[2016.03.20-13.37.09:893][ 16]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_42's PathFollowingComponent
+[2016.03.20-13.37.09:894][ 16]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.078
+[2016.03.20-13.37.09:894][ 16]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.37.27:676][117]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.37.27:727][117]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2016.03.20-13.37.27:756][117]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129A098FBA0
+[2016.03.20-13.37.29:627][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.37.30:012][301]LogSavePackage: Save=348.820160ms
+[2016.03.20-13.37.30:012][301]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMap542A3A18465872AEB99883B7F23500D5.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.37.30:013][301]LogSavePackage: Total save time: 353.016097ms
+[2016.03.20-13.37.30:013][301]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.38.12:182][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExampleMap" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.20-13.38.12:184][298]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.38.12:569][298]LogSavePackage: Save=353.003448ms
+[2016.03.20-13.38.12:569][298]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerExampleMapDAFDBEA642110A312E99ABA0D205370A.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2016.03.20-13.38.12:570][298]LogSavePackage: Total save time: 356.554665ms
+[2016.03.20-13.38.12:570][298]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2016.03.20-13.38.14:346][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/EnergyGun" FILE="D:/GitHub/SCG_1/Content/EnergyGun.uasset" SILENT=true
+[2016.03.20-13.38.14:368][487]LogSavePackage: Save=15.536592ms
+[2016.03.20-13.38.14:368][487]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/EnergyGun4FC7C16446385AC69D10ABAF3AD002A2.tmp' to 'D:/GitHub/SCG_1/Content/EnergyGun.uasset'
+[2016.03.20-13.38.14:374][487]LogSavePackage: Total save time: 27.376987ms
+[2016.03.20-13.38.14:374][487]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/EnergyGun.uasset
+[2016.03.20-13.38.17:080][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SideScrollerCharacter" FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset" SILENT=true
+[2016.03.20-13.38.17:408][751]LogSavePackage: Save=321.856781ms
+[2016.03.20-13.38.17:408][751]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/SideScrollerCharacterD5F4BAA04502FE97E42DE2B858068782.tmp' to 'D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset'
+[2016.03.20-13.38.17:412][751]LogSavePackage: Total save time: 331.390422ms
+[2016.03.20-13.38.17:412][751]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset
+[2016.03.20-13.38.17:432][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BulletPawn" FILE="D:/GitHub/SCG_1/Content/BulletPawn.uasset" SILENT=true
+[2016.03.20-13.38.17:475][751]LogSavePackage: Save=36.577187ms
+[2016.03.20-13.38.17:475][751]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/BulletPawn9321BF46457DB9B1F315BB939DD6C0A1.tmp' to 'D:/GitHub/SCG_1/Content/BulletPawn.uasset'
+[2016.03.20-13.38.17:479][751]LogSavePackage: Total save time: 46.065383ms
+[2016.03.20-13.38.17:479][751]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/BulletPawn.uasset
+[2016.03.20-13.38.17:489][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/WeaponFire01" FILE="D:/GitHub/SCG_1/Content/Audio/WeaponFire01.uasset" SILENT=true
+[2016.03.20-13.38.17:500][751]LogSavePackage: Save=4.498173ms
+[2016.03.20-13.38.17:500][751]LogSavePackage: Moving 'D:/GitHub/SCG_1/Saved/WeaponFire014F2128A74AA5E795E1E1689E58F24CC5.tmp' to 'D:/GitHub/SCG_1/Content/Audio/WeaponFire01.uasset'
+[2016.03.20-13.38.17:502][751]LogSavePackage: Total save time: 12.072295ms
+[2016.03.20-13.38.17:502][751]LogSavePackage:Display: Finished SavePackage D:/GitHub/SCG_1/Content/Audio/WeaponFire01.uasset
+[2016.03.20-13.38.43:289][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.20-13.38.43:289][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.03.20-13.38.43:472][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.20-13.38.43:527][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.20-13.38.43:782][722]Cmd: QUIT_EDITOR
+[2016.03.20-13.38.44:092][722]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.03.20-13.38.44:156][722]LogExit: Preparing to exit.
+[2016.03.20-13.38.44:966][722]LogExit: Editor shut down
+[2016.03.20-13.38.44:967][722]LogExit: Transaction tracking system shut down
+[2016.03.20-13.38.44:972][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012929AC0220
+[2016.03.20-13.38.44:973][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012904511300
+[2016.03.20-13.38.44:973][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001292107B880
+[2016.03.20-13.38.44:974][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001291801C7C0
+[2016.03.20-13.38.44:974][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001293239FC40
+[2016.03.20-13.38.44:974][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001293239FA60
+[2016.03.20-13.38.44:974][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001293239F880
+[2016.03.20-13.38.44:974][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001293239F560
+[2016.03.20-13.38.44:977][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000129321876A0
+[2016.03.20-13.38.44:977][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012905F74540
+[2016.03.20-13.38.44:979][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001290617D4E0
+[2016.03.20-13.38.44:981][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000012926563380
+[2016.03.20-13.38.45:190][722]LogExit: Object subsystem successfully closed.
+[2016.03.20-13.38.45:210][722]LogD3D11RHI: Shutdown
+[2016.03.20-13.38.45:210][722]LogD3D11RHI: CleanupD3DDevice
+[2016.03.20-13.38.45:310][722]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.03.20-13.38.45:325][722]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.03.20-13.38.45:325][722]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.03.20-13.38.45:325][722]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.03.20-13.38.45:325][722]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.03.20-13.38.45:325][722]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.03.20-13.38.45:325][722]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.03.20-13.38.45:329][722]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.03.20-13.38.45:329][722]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module SceneOutliner (192)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.03.20-13.38.45:330][722]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.03.20-13.38.45:694][722]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.03.20-13.38.45:695][722]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.03.20-13.38.45:841][722]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.03.20-13.38.45:841][722]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.03.20-13.38.45:841][722]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.03.20-13.38.45:841][722]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.03.20-13.38.45:841][722]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.03.20-13.38.45:842][722]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.03.20-13.38.45:842][722]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.03.20-13.38.45:842][722]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.03.20-13.38.45:856][722]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.03.20-13.38.45:857][722]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.03.20-13.38.45:859][722]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.03.20-13.38.45:862][722]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.03.20-13.38.45:976][722]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.03.20-13.38.45:977][722]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.03.20-13.38.45:977][722]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.03.20-13.38.46:077][722]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.03.20-13.38.46:077][722]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.03.20-13.38.46:077][722]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.03.20-13.38.46:080][722]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.03.20-13.38.46:081][722]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.03.20-13.38.46:081][722]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.03.20-13.38.46:081][722]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.03.20-13.38.46:081][722]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.03.20-13.38.46:083][722]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.03.20-13.38.46:124][722]LogDerivedDataCache: Shutdown
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.03.20-13.38.46:124][722]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.03.20-13.38.47:125][722]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.03.20-13.38.47:125][722]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.03.20-13.38.47:125][722]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.03.20-13.38.47:125][722]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.03.20-13.38.47:126][722]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.03.20-13.38.47:126][722]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.03.20-13.38.47:126][722]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.20-13.38.47:137][722]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.20-13.38.47:139][722]LogExit: Exiting.
+[2016.03.20-13.38.47:157][722]Log file closed, 03/20/16 16:38:47
