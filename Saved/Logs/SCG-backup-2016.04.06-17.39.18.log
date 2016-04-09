@@ -1,0 +1,164 @@
+﻿[2016.04.06-08.54.12:731][  0]Log file open, 04/06/16 11:54:12
+[2016.04.06-08.54.12:731][  0]LogInit:Display: Running engine for game: SCG
+[2016.04.06-08.54.12:731][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.06-08.54.12:731][  0]LogInit:Display: RandInit(-549107066) SRandInit(-549107065).
+[2016.04.06-08.54.12:731][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.04.06-08.54.12:731][  0]LogStats: Stats thread started at 0.071466
+[2016.04.06-08.54.12:731][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-08.54.12:731][  0]LogInit: API Version: 2758231
+[2016.04.06-08.54.12:731][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.06-08.54.12:731][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.06-08.54.12:731][  0]LogInit: Build Configuration: Development
+[2016.04.06-08.54.12:731][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.06-08.54.12:731][  0]LogInit: Command line:  
+[2016.04.06-08.54.12:731][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.06-08.54.12:731][  0]LogInit: Rocket: 1
+[2016.04.06-08.54.12:737][  0]LogInit: Using libcurl 7.41.0
+[2016.04.06-08.54.12:737][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.06-08.54.12:737][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.06-08.54.12:737][  0]LogInit:  - other features:
+[2016.04.06-08.54.12:737][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.06-08.54.12:737][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.06-08.54.12:737][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.06-08.54.12:737][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.06-08.54.12:737][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.06-08.54.12:737][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.06-08.54.12:737][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.06-08.54.12:737][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.06-08.54.12:737][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.06-08.54.12:737][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.06-08.54.12:743][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.06-08.54.12:749][  0]LogInit: Object subsystem initialized
+[2016.04.06-08.54.12:751][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-08.54.12:751][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.06-08.54.12:760][  0]LogInit: Computer: DESKTOP-9PE97P4
+[2016.04.06-08.54.12:760][  0]LogInit: User: AlexeyAYashin
+[2016.04.06-08.54.12:760][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.04.06-08.54.12:760][  0]LogInit: High frequency timer resolution =2.531246 MHz
+[2016.04.06-08.54.12:760][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.06-08.54.12:760][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.06-08.54.12:760][  0]LogMemory: Process Physical Memory: 56.40 MB used, 56.40 MB peak
+[2016.04.06-08.54.12:760][  0]LogMemory: Process Virtual Memory: 58.80 MB used, 58.80 MB peak
+[2016.04.06-08.54.12:760][  0]LogMemory: Physical Memory: 3416.92 MB used, 16283.51 MB total
+[2016.04.06-08.54.12:760][  0]LogMemory: Virtual Memory: 384.89 MB used, 134217728.00 MB total
+[2016.04.06-08.54.12:792][  0]LogTextLocalizationManager: No translations for ('ru-RU') exist, falling back to 'en' for localization and internationalization data.
+[2016.04.06-08.54.13:199][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980M    (Feature Level 11_0)
+[2016.04.06-08.54.13:199][  0]LogD3D11RHI: Adapter has 4009MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 1 output[s]
+[2016.04.06-08.54.13:204][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 530 (Feature Level 11_0)
+[2016.04.06-08.54.13:204][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.04.06-08.54.13:205][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.06-08.54.13:205][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8141MB of shared system memory, 0 output[s]
+[2016.04.06-08.54.13:205][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.06-08.54.13:210][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.06-08.54.13:210][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.06-08.54.13:224][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.06-08.54.13:239][  0]LogShaderCompilers: Guid format shader working directory is 37 characters bigger than the processId version (D:/GitHub/SCG_1/Intermediate/Shaders/WorkingDirectory/17696/).
+[2016.04.06-08.54.13:239][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ALEXEY~1.YAS/AppData/Local/Temp/UnrealShaderWorkingDir/FB7B7A4C4BBAF45552B5AEBEBA27AB16/'.
+[2016.04.06-08.54.13:239][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.06-08.54.13:922][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.06-08.54.13:926][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.06-08.54.13:930][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.06-08.54.13:934][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.06-08.54.13:938][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.06-08.54.13:941][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.06-08.54.13:944][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.06-08.54.13:946][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.06-08.54.13:948][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.06-08.54.13:951][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.06-08.54.13:953][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.06-08.54.13:958][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.06-08.54.13:958][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.06-08.54.13:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.06-08.54.13:974][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.06-08.54.13:977][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.06-08.54.13:979][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.06-08.54.13:982][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.06-08.54.13:982][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.06-08.54.14:049][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.06-08.54.14:087][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-08.54.14:087][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.06-08.54.14:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/SCG_1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.06-08.54.14:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.06-08.54.14:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/SCG_1/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.06-08.54.14:087][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.06-08.54.14:138][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.06-08.54.14:149][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.06-08.54.14:298][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-08.54.14:301][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.06-08.54.14:449][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.06-08.54.14:449][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.06-08.54.14:636][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.06-08.54.15:281][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.06-08.54.15:373][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.04.06-08.54.15:510][  0]SourceControl: Info Source control is disabled
+[2016.04.06-08.54.15:544][  0]SourceControl: Info Source control is disabled
+[2016.04.06-08.54.15:555][  0]SourceControl: Info Source control is disabled
+[2016.04.06-08.54.15:564][  0]SourceControl: Info Source control is disabled
+[2016.04.06-08.54.15:762][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.04.06-08.54.15:762][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.04.06-08.54.15:816][  0]LogEngine: Initializing Engine...
+[2016.04.06-08.54.15:819][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-08.54.15:819][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.06-08.54.15:932][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.06-08.54.15:934][  0]LogInit: XAudio2 using 'Динамики (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.06-08.54.15:941][  0]LogInit: FAudioDevice initialized.
+[2016.04.06-08.54.15:964][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/Alexey A. Yashin/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-08.54.15:968][  0]LogInit: Texture streaming: Enabled
+[2016.04.06-08.54.15:973][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.06-08.54.15:973][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-08.54.15:973][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId f5a2790d4621e793f57aed83a4c1ad3b|44963bdca51a4f6a8fcfa146bce134ea|b1ea7d6f-3642-40ca-8e23-a6158fe6a3f1
+[2016.04.06-08.54.15:973][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.06-08.54.15:985][  0]LogInit: Transaction tracking system initialized
+[2016.04.06-08.54.16:010][  0]BlueprintLog: New page: Editor Load
+[2016.04.06-08.54.16:084][  0]LocalizationService: Info Localization service is disabled
+[2016.04.06-08.54.16:156][  0]LogConsoleResponse:Display: 
+[2016.04.06-08.54.16:278][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.06-08.54.16:325][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Content/' took 0.04s
+[2016.04.06-08.54.16:325][  0]SourceControl: Info Source control is disabled
+[2016.04.06-08.54.16:325][  0]Cmd: MAP LOAD FILE="D:/GitHub/SCG_1/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.06-08.54.16:360][  0]LightingResults: New page: Lighting Build
+[2016.04.06-08.54.16:363][  0]MapCheck: New page: Map Check
+[2016.04.06-08.54.16:363][  0]LightingResults: New page: Lighting Build
+[2016.04.06-08.54.16:373][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001FCD2953420
+[2016.04.06-08.54.18:322][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2016.04.06-08.54.18:327][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.Floor2.StaticMeshComponent0)
+[2016.04.06-08.54.18:339][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.06-08.54.18:340][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.06-08.54.18:379][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.112ms to complete.
+[2016.04.06-08.54.18:379][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.055
+[2016.04.06-08.54.18:477][  0]LogCollectionManager: Loaded 0 collections in 0.002258 seconds
+[2016.04.06-08.54.18:515][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Saved/Collections/' took 0.01s
+[2016.04.06-08.54.18:515][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Content/Developers/AlexeyAYashin/Collections/' took 0.01s
+[2016.04.06-08.54.18:515][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SCG_1/Content/Collections/' took 0.01s
+[2016.04.06-08.54.18:515][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.06-08.54.18:522][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 1894 classes and 340 folders.
+[2016.04.06-08.54.18:528][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.06-08.54.18:562][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.06-08.54.18:603][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.06-08.54.18:609][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.06-08.54.18:631][  0]LogLoad: Full Startup: 6.44 seconds (BP compile: 0.25 seconds)
+[2016.04.06-08.54.18:649][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.06-08.54.18:653][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-08.54.18:729][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.06-08.54.18:846][  0]LogRenderer: Reallocating scene render targets to support 1016x332 (Frame:2).
+[2016.04.06-08.54.19:247][  6]LogAssetRegistry: Asset discovery search completed in 3.8844 seconds
+[2016.04.06-08.54.19:247][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.04.06-08.54.19:247][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2016.04.06-08.54.23:647][261]LogRenderer: Reallocating scene render targets to support 1016x424 (Frame:15).
+[2016.04.06-08.54.23:945][279]LogFileCache: Retrieving MD5 hashes for directory 'D:/GitHub/SCG_1/Content/' took 5.28s
+[2016.04.06-08.54.32:796][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2016.04.06-08.54.34:261][894]Cmd: DELETE
+[2016.04.06-08.54.34:261][894]Cmd: ACTOR DELETE
+[2016.04.06-08.54.34:268][894]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.06-08.54.34:270][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-08.54.34:270][894]LogActorComponent: UnregisterComponent: (/Engine/Transient.FloatingPawnMovement_0) Not registered. Aborting.
+[2016.04.06-08.54.34:333][894]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2016.04.06-08.54.45:255][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.04.06-08.58.47:525][600]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall3)
+[2016.04.06-08.58.48:407][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2016.04.06-08.59.01:545][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2016.04.06-08.59.02:149][472]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge8)
+[2016.04.06-08.59.02:774][508]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge9)
+[2016.04.06-08.59.03:960][578]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge4)
+[2016.04.06-08.59.04:499][609]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Ledge3)
+[2016.04.06-08.59.18:872][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/SideScrollerExam
